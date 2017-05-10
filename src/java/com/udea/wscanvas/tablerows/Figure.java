@@ -13,8 +13,12 @@ import javax.json.JsonObject;
  *
  * @author sergio.marriaga
  */
-public class figure {
+public class Figure {
     private JsonObject json;
+
+    public Figure(JsonObject json) {
+        this.json = json;
+    }
 
     /**
      * @return the json
